@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SomeDargon/SpringcloudConfig/
+          search-paths: respo
+server:
+  port: 8888
+
+
